@@ -1,0 +1,23 @@
+{
+    "title": "Coffee scale state Mqtt topic",
+    "type": "object",
+    "properties": {
+        "timestamp": {
+            "desciption": "",
+            "type": "string",
+            "format": "date-time"
+        },
+        "state": {
+            "type": "string",
+            "enum": [
+                "CoffeePodPlaced",
+                "CoffeePodLifted"
+            ]
+        }
+    },
+    "additionalProperties": true,
+    "required": [
+        "timestamp",
+        "state"
+    ]
+}

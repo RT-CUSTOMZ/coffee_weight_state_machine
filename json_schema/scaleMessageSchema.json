@@ -1,0 +1,15 @@
+{
+    "title": "Scale Mqtt topic",
+    "type": "object",
+    "properties": {
+        "rawValue": {
+            "description": "measured raw weight",
+            "type": "integer",
+            "minimum": 0
+        }
+    },
+    "additionalProperties": true,
+    "required": [
+        "rawValue"
+    ]
+}
